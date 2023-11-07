@@ -1,0 +1,42 @@
+/* =============== */
+/*  Typography     */
+/* =============== */
+
+/* Font styles */
+body {
+    font-family: var(--font-family);
+    line-height: var(--line-height-base);
+    font-weight: var(--font-weight-normal);
+}
+
+/* Header Styles */
+h1,
+.h1 {
+    font-weight: bold;
+}
+
+h2,
+.h2 {
+    font-size: 1.7rem;
+    font-weight: 670;
+}
+
+h3,
+.h3 {
+    font-weight: bold;
+}
+
+h4,
+.h4 {
+    font-weight: bold;
+}
+
+h5,
+.h5 {
+    font-weight: bold;
+}
+
+h6,
+.h6 {
+    font-weight: bold;
+}

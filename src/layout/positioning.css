@@ -1,0 +1,57 @@
+/* positioning.css */
+
+.d-flex {
+    display: flex;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* Justify content */
+.justify-content-between {
+    justify-content: space-between;
+}
+
+/* Align Items */
+.align-items-center {
+    align-items: center;
+}
+
+
+
+
+/* Center an element horizontally */
+.center-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+/* Center an element both horizontally and vertically */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Right-align an element */
+.align-right {
+    text-align: right;
+}
+
+/* Left-align an element */
+.align-left {
+    text-align: left;
+}

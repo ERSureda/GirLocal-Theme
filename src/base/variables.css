@@ -1,0 +1,45 @@
+/* =============== */
+/*  Variables      */
+/* =============== */
+
+@font-face {
+    font-family: MyFont;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+:root {
+    /* Typography */
+    --line-height-base: 1.5;
+    --font-family: MyFont;
+    --font-size-base: 0.8rem;
+    --font-weight-light: 300;
+    --font-weight-base: 400;
+    --font-weight-normal: 500;
+    --font-weight-bold: 650;
+    --font-weight-bolder: 900;
+
+    /* Colors */
+    --primary-color: #1F5D96;
+    --secondary-color: #333;
+    --tertiary-color: #F1F1F1;
+    --fourth-color: #FFF;
+
+    /* Text Colors */
+    --text-color: #333;
+    --text-light-color: #fff;
+
+    /* Spacing */
+    --spacing-unit: 1rem;
+    --spacing-half: calc(var(--spacing-unit) / 2);
+    --spacing-quarter: calc(var(--spacing-unit) / 4);
+
+    /* Border */
+    --border-radius: 2rem;
+    --border-color: #ccc;
+
+    /* Breakpoints */
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 750px;
+    --breakpoint-lg: 990px;
+    --breakpoint-xl: 1200px;
+}

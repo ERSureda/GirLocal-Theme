@@ -1,0 +1,43 @@
+/* =============== */
+/*  Forms          */
+/* =============== */
+
+input[type="text"] {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+}
+
+/* Form Inputs */
+/* form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 1rem;
+} */
+
+/* Checkboxes and Radio Buttons */
+/* input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 0.5rem;
+} */
+
+/* Select Boxes */
+/* select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background: white;
+} */
+
+/* Form Labels */
+/* label {
+    font-weight: bold;
+} */

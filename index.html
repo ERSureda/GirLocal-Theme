@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GirLocal - Home</title>
+    <!-- Web Icon -->
+    <link rel="shortcut icon" href="./images/Icon_Logo.PNG">
+    <!-- Css -->
+    <link rel="stylesheet" href="./src/main.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="navbar d-inline-flex justify-content-between align-items-center">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <button class="navbar-collapse" onclick="openSidebar()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <a class="navbar-logo d-flex" href="./index.html">
+                        <img src="./images/Logo.PNG" alt="GirLocal">
+                    </a>
+                    <div class="navbar-categories">
+                        <div class="d-flex">
+                            <div class="navbar-categories-btn active">Mujer</div>
+                            <div class="navbar-categories-btn">Hombre</div>
+                            <div class="navbar-categories-btn">Niños</div>
+                        </div>
+                    </div>
+                    <div class="navbar-ubication btn btn-tertiary">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Carrer de la Rutlla 147
+                    </div>
+                </div>
+    
+                <div class="navbar-buttons d-inline-flex justify-content-between align-items-center">
+                    <button class="rounded btn-secondary"><i class="fa-solid fa-heart"></i></button>
+                    <button class="btn btn-secondary"><i class="fa-solid fa-cart-shopping"></i>Carrito · 0</button>
+                    <a class="btn btn-tertiary" href="#">Iniciar sesión</a>
+                    <a class="btn btn-tertiary" href="#">Registrar</a>
+                </div>
+            </div>
+            <div class="navbar navbar-secondary d-inline-flex justify-content-between align-items-center">
+                <div>
+                    <a>Ropa</a>
+                    <a>Zapatos</a>
+                    <a>Complementos</a>
+                </div>
+                <div class="navbar-search">
+                    <input type="text" placeholder="Buscar aquí">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+    </div>
+
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="./Images/Banner_Img/BannerImg_03.png"/>
+        </div>
+        
+        <div class="mySlides">
+            <img src="./Images/Banner_Img/BannerImg_03.png"/>
+        </div>
+        
+        <div class="mySlides">
+            <img src="./Images/Banner_Img/BannerImg_03.png"/>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+        
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+
+    <div class="container">
+
+        <div class="sotre-card-header d-inline-flex justify-content-between align-items-center mt-4">
+            <h2>Destacados en GirLocal</h2>
+            <div>
+                <button class="btn-tertiary"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="btn-tertiary"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="store-card col-3">
+                <img src="https://www.neo2.com/wp-content/uploads/2023/08/tienda-lefties-digital-store-platja-d-aro-04.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>Lefties</h3>
+                    <span>8.3</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+
+            <div class="store-card col-3">
+                <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/10/24/16666028526349.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>Zara</h3>
+                    <span>7.6</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+
+            <div class="store-card col-3">
+                <img src="https://valenciaplaza.com/public/Image/2022/2/jdsports_NoticiaAmpliada.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>JD-Sports</h3>
+                    <span>8.7</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+
+            <div class="store-card col-3">
+                <img src="https://www.luxuryretail.es/wp-content/uploads/2018/07/Luxuryretail_Errani-Rolex-store-windows-Ravenna-Italy.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>Rolex</h3>
+                    <span>9.4</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+        </div>
+
+
+        <div class="sotre-card-header d-inline-flex justify-content-between align-items-center mt-3">
+            <h2>Ofertas de hoy</h2>
+            <div>
+                <button class="btn-tertiary"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="btn-tertiary"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="store-card col-3">
+                <img src="https://www.neo2.com/wp-content/uploads/2023/08/tienda-lefties-digital-store-platja-d-aro-04.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>Lefties</h3>
+                    <span>8.3</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+
+            <div class="store-card col-3">
+                <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/10/24/16666028526349.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>Zara</h3>
+                    <span>7.6</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+
+            <div class="store-card col-3">
+                <img src="https://valenciaplaza.com/public/Image/2022/2/jdsports_NoticiaAmpliada.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>JD-Sports</h3>
+                    <span>8.7</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+
+            <div class="store-card col-3">
+                <img src="https://www.luxuryretail.es/wp-content/uploads/2018/07/Luxuryretail_Errani-Rolex-store-windows-Ravenna-Italy.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>Rolex</h3>
+                    <span>9.4</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+        </div>
+
+
+        <div class="sotre-card-header d-inline-flex justify-content-between align-items-center mt-3">
+            <h2>Productos Populares</h2>
+            <div>
+                <button class="btn-tertiary"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="btn-tertiary"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="product-card col-3">
+                <img src="https://img01.ztat.net/article/spp-media-p1/c46c346829b54b59a3f4c1abf920438a/d9da5f981c264c33a6e4abe175500b92.jpg?imwidth=1800"/>
+                <h3>Adidas Originals</h3>
+                <p class="product-card-name">LICENSE TO TRAIN SHORT SLEEVE - CAMISETA BÁSICA</p>
+                <p class="product-card-price mt-1">66,78 €</p>
+            </div>
+
+            <div class="product-card col-3">
+                <img src="https://img01.ztat.net/article/spp-media-p1/69a204c687e04d10bcb5e26bf26d739a/c8951249fce54e13b0981583207ba611.jpg?imwidth=1800"/>
+                <h3>Lulelemon</h3>
+                <p class="product-card-name">WUNDER PUFF - CHAQUETA DE PLUMAS</p>
+                <p class="product-card-price mt-1">298,00 €</p>
+            </div>
+            
+            <div class="product-card col-3">
+                <img src="https://img01.ztat.net/article/spp-media-p1/49e0399a51864b6889990bc976fa7b9d/19807196fee5421798d13ff79629d752.jpg?imwidth=1800"/>
+                <h3>Yourturn</h3>
+                <p class="product-card-name">UNISEX - Pantalones cargo</p>
+                <p class="product-card-price mt-1">33,09 €</p>
+            </div>
+
+            <div class="product-card col-3">
+                <img src="https://img01.ztat.net/article/spp-media-p1/0198530251b34fb08daab010b72eed6b/e945db37b2ce47378df13ab5257985f6.jpg?imwidth=762"/>
+                <h3>Lulelemon</h3>
+                <p class="product-card-name">LICENSE TO TRAIN SHORT SLEEVE - CAMISETA BÁSICA</p>
+                <p class="product-card-price mt-1">78,00 €</p>
+            </div>
+        </div>
+
+
+        <div class="row mt-4">
+            <div class="col-4">
+                <img src="./Images/Banner_Img/Banner_01.png" width="100%">
+            </div>
+            <div class="col-4">
+                <img src="./Images/Banner_Img/Banner_02.png" width="100%">
+            </div>
+            <div class="col-4">
+                <img src="./Images/Banner_Img/Banner_03.png" width="100%">
+            </div>
+        </div>
+
+
+        <div class="sotre-card-header d-inline-flex justify-content-between align-items-center mt-4">
+            <h2>Populares cerca de ti</h2>
+            <div>
+                <button class="btn-tertiary"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="btn-tertiary"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="store-card col-3">
+                <img src="https://www.neo2.com/wp-content/uploads/2023/08/tienda-lefties-digital-store-platja-d-aro-04.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>Lefties</h3>
+                    <span>8.3</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+
+            <div class="store-card col-3">
+                <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/10/24/16666028526349.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>Zara</h3>
+                    <span>7.6</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+
+            <div class="store-card col-3">
+                <img src="https://valenciaplaza.com/public/Image/2022/2/jdsports_NoticiaAmpliada.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>JD-Sports</h3>
+                    <span>8.7</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+
+            <div class="store-card col-3">
+                <img src="https://www.luxuryretail.es/wp-content/uploads/2018/07/Luxuryretail_Errani-Rolex-store-windows-Ravenna-Italy.jpg">
+                <div class="d-inline-flex justify-content-between align-items-center">
+                    <h3>Rolex</h3>
+                    <span>9.4</span>
+                </div>
+                <p>C. de Joan Maragall, 25-27, 17002</p>
+            </div>
+        </div>
+
+        
+    </div>
+
+<div class="opacity" id="opacity" onclick="closeSidebar()"></div>
+<script src="https://kit.fontawesome.com/72c899b793.js" crossorigin="anonymous"></script>
+<script src="./src/main.js"></script>
+<script src="./src/slider.js"></script>
+</body>
+</html>

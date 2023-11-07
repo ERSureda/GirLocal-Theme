@@ -1,0 +1,134 @@
+/* navigation.css */
+
+/* Navigation Container */
+.navbar {
+    padding: 0.3rem 2rem;
+    width: 100%;
+    font-size: var(--font-size-base);
+}
+
+.navbar-secondary {
+    padding: 0.6rem 2rem;
+    background-color: var(--tertiary-color);
+}
+
+/* Navigation Logo */
+.navbar .navbar-logo img {
+    height: 50px;
+}
+
+/* Navigation Collapse */
+.navbar .navbar-collapse {
+    padding: 0rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+
+/* Navigation Categories */
+.navbar .navbar-categories {
+    margin: 0rem 1rem;
+    border: 0.25rem solid var(--tertiary-color);
+    border-radius: 2rem;
+    background-color: var(--tertiary-color);
+}
+
+.navbar .navbar-categories .navbar-categories-btn {
+    padding: 0.45rem 1rem;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.navbar .navbar-categories .active {
+    background-color: white;
+}
+
+/* Navigation Ubication */
+.navbar .navbar-ubication i {
+    margin-right: 1rem;
+}
+
+.navbar .navbar-ubication i {
+    margin-right: 1rem;
+}
+
+/* Navigation Buttons */
+.navbar .navbar-buttons .btn {
+    margin-left: 1rem;
+} 
+
+.navbar .btn i {
+    margin-right: 0.5rem;
+}
+
+.navbar .rounded {
+    margin-left: 1rem;
+    padding: 0.8rem 0.9rem;
+    border-radius: 100%;
+} 
+
+.navbar button {
+    padding: 0.8rem 1rem;
+}
+
+/* Navigation Secondary */
+.navbar-secondary a {
+    margin-right: 2.5rem;
+}
+
+.navbar-secondary .navbar-search input {
+    padding: 0.7rem 1rem;
+    width: 300px;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--fourth-color);
+}
+
+
+
+
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    padding-top: 60px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: var(--fourth-color);
+}
+
+.opacity {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+/* Responsive Navbar */
+@media screen and (max-width: 1200px) {
+    .navbar .navbar-buttons .btn-secondary {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .navbar .navbar-ubication, .navbar .navbar-categories {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar .navbar-ubication, .navbar .navbar-categories, .navbar .navbar-buttons {
+        display: none !important;
+    }
+}
